@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "havoc_wardrobe",
+	"version": "${version}",
+	"name": "HAVOC Wardrobe",
+	"description": "Server-side /wardrobe: save up to 9 armour sets and swap them from a chest menu. Works with vanilla clients. Optional EconomyCraft costs. Based on Easy Wardrobe by KyNarec.",
+	"authors": ["HAVOC"],
+	"contributors": ["KyNarec (Easy Wardrobe, original code)"],
+	"contact": {
+		"sources": "https://github.com/KyNarec/Easy-Wardrobe"
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/havoc_wardrobe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.havoc.wardrobe.HavocWardrobe"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"economycraft": ">=1.11.0"
+	}
+}
