@@ -31,9 +31,6 @@ jobs:
             if unzip -l "$j" 2>/dev/null | grep -q "net/minecraft/world/item/Items.class"; then JAR="$j"; break; fi
           done
           echo "JAR=$JAR"
-          unzip -l "$JAR" | grep -E "net/minecraft/world/inventory/[A-Za-z]*(Click|Input|Action)[A-Za-z]*\.class" | head -20
-          javap -cp "$JAR" net.minecraft.world.inventory.AbstractContainerMenu | grep -iE "click|input" | head -20
-          javap -cp "$JAR" net.minecraft.world.entity.player.Inventory | grep -iE "placeItemBack|add\(" | head -10
-          unzip -l "$JAR" | grep -iE "Prediction" | head -5
-          javap -cp "$JAR" net.minecraft.world.item.Items | grep -iE "stained_glass_pane|dye" | head -20
-          javap -cp "$JAR" net.minecraft.world.item.Items | head -5
+          javap -cp "$JAR" net.minecraft.world.inventory.ContainerInput
+          javap -cp "$JAR" net.minecraft.world.level.block.ColorCollection | head -30
+          javap -cp "$JAR" net.minecraft.util.Prediction | head -20
