@@ -7,7 +7,9 @@
 	"authors": ["HAVOC"],
 	"contributors": ["KyNarec (Easy Wardrobe, original code)"],
 	"contact": {
-		"sources": "https://github.com/KyNarec/Easy-Wardrobe"
+		"homepage": "https://github.com/b2s-awesome/havoc-wardrobe",
+		"sources": "https://github.com/b2s-awesome/havoc-wardrobe",
+		"issues": "https://github.com/b2s-awesome/havoc-wardrobe/issues"
 	},
 	"license": "GPL-3.0-or-later",
 	"icon": "assets/havoc_wardrobe/icon.png",
