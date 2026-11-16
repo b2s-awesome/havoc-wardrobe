@@ -26,10 +26,14 @@ jobs:
       - name: Diagnose 26.3 API names (only on failure)
         if: failure()
         run: |
-          JAR=$(find ~/.gradle/caches .gradle -type f -name "*.jar" \( -path "*minecraft*" \) 2>/dev/null | grep -E "26\.3" | grep -viE "sources|fabric-api|loader" | xargs -r ls -S | head -1)
+          JAR=""
+          for j in $(find ~/.gradle/caches/fabric-loom .gradle -type f -name "*.jar" 2>/dev/null); do
+            if unzip -l "$j" 2>/dev/null | grep -q "net/minecraft/world/item/Items.class"; then JAR="$j"; break; fi
+          done
           echo "JAR=$JAR"
           unzip -l "$JAR" | grep -E "net/minecraft/world/inventory/[A-Za-z]*(Click|Input|Action)[A-Za-z]*\.class" | head -20
-          javap -cp "$JAR" net.minecraft.world.inventory.AbstractContainerMenu | grep -iE "clicked|click|input" | head -20
+          javap -cp "$JAR" net.minecraft.world.inventory.AbstractContainerMenu | grep -iE "click|input" | head -20
           javap -cp "$JAR" net.minecraft.world.entity.player.Inventory | grep -iE "placeItemBack|add\(" | head -10
           unzip -l "$JAR" | grep -iE "Prediction" | head -5
-          javap -cp "$JAR" net.minecraft.world.item.Items | grep -iE "stained_glass_pane|_dye|dye" | head -20
+          javap -cp "$JAR" net.minecraft.world.item.Items | grep -iE "stained_glass_pane|dye" | head -20
+          javap -cp "$JAR" net.minecraft.world.item.Items | head -5
