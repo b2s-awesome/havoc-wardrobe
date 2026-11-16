@@ -1,0 +1,1214 @@
+{
+  "minecraft:copper_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 7,
+    "unit_sell": 0
+  },
+  "minecraft:copper_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_copper_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_exposed_copper_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_oxidized_copper_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_weathered_copper_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_copper_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_exposed_copper_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_oxidized_copper_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_weathered_copper_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:amethyst_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:amethyst_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:iron_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 20,
+    "unit_sell": 0
+  },
+  "minecraft:amethyst_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 30,
+    "unit_sell": 0
+  },
+  "minecraft:iron_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 40,
+    "unit_sell": 0
+  },
+  "minecraft:gold_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 80,
+    "unit_sell": 0
+  },
+  "minecraft:gold_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 80,
+    "unit_sell": 0
+  },
+  "minecraft:emerald_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 130,
+    "unit_sell": 0
+  },
+  "minecraft:emerald_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 130,
+    "unit_sell": 0
+  },
+  "minecraft:gold_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 155,
+    "unit_sell": 0
+  },
+  "minecraft:emerald_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 255,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 355,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 355,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 705,
+    "unit_sell": 0
+  },
+  "minecraft:netherite_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 1050,
+    "unit_sell": 0
+  },
+  "minecraft:netherite_small_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 1050,
+    "unit_sell": 0
+  },
+  "minecraft:netherite_big_lantern": {
+    "category": "handwerk.lanterns",
+    "stack": 64,
+    "unit_buy": 2100,
+    "unit_sell": 0
+  },
+  "minecraft:copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 9,
+    "unit_sell": 0
+  },
+  "minecraft:copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 9,
+    "unit_sell": 0
+  },
+  "minecraft:copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:exposed_copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:exposed_copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:exposed_copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:oxidized_copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:weathered_copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 12,
+    "unit_sell": 0
+  },
+  "minecraft:weathered_copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 12,
+    "unit_sell": 0
+  },
+  "minecraft:weathered_copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 12,
+    "unit_sell": 0
+  },
+  "minecraft:oxidized_copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 13,
+    "unit_sell": 0
+  },
+  "minecraft:oxidized_copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 13,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 13,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_exposed_copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 13,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_exposed_copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 13,
+    "unit_sell": 0
+  },
+  "minecraft:copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:exposed_copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:oxidized_copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_exposed_copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_oxidized_copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_weathered_copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_weathered_copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_weathered_copper_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:weathered_copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 14,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_oxidized_copper_redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_oxidized_copper_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 18,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_exposed_copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 18,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_oxidized_copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 18,
+    "unit_sell": 0
+  },
+  "minecraft:waxed_weathered_copper_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 18,
+    "unit_sell": 0
+  },
+  "minecraft:amethyst_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 19,
+    "unit_sell": 0
+  },
+  "minecraft:amethyst_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 19,
+    "unit_sell": 0
+  },
+  "minecraft:iron_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 25,
+    "unit_sell": 0
+  },
+  "minecraft:iron_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 25,
+    "unit_sell": 0
+  },
+  "minecraft:redstone_chain": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 25,
+    "unit_sell": 0
+  },
+  "minecraft:amethyst_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 30,
+    "unit_sell": 0
+  },
+  "minecraft:iron_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "minecraft:gold_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 80,
+    "unit_sell": 0
+  },
+  "minecraft:gold_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 80,
+    "unit_sell": 0
+  },
+  "minecraft:emerald_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 130,
+    "unit_sell": 0
+  },
+  "minecraft:emerald_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 130,
+    "unit_sell": 0
+  },
+  "minecraft:gold_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 155,
+    "unit_sell": 0
+  },
+  "minecraft:emerald_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 255,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 355,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 355,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 705,
+    "unit_sell": 0
+  },
+  "minecraft:netherite_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 1050,
+    "unit_sell": 0
+  },
+  "minecraft:netherite_small_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 1050,
+    "unit_sell": 0
+  },
+  "minecraft:netherite_big_redstone_lantern": {
+    "category": "handwerk.redstone",
+    "stack": 64,
+    "unit_buy": 2100,
+    "unit_sell": 0
+  },
+  "minecraft:coarse_dirt_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:dirt_path_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:dirt_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:grass_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:magma_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:mud_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:muddy_mangrove_roots_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:podzol_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:polished_basalt_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:rooted_dirt_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:smooth_basalt_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 2,
+    "unit_sell": 0
+  },
+  "minecraft:moss_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 3,
+    "unit_sell": 0
+  },
+  "minecraft:coarse_dirt_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4,
+    "unit_sell": 0
+  },
+  "minecraft:dirt_path_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4,
+    "unit_sell": 0
+  },
+  "minecraft:dirt_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4,
+    "unit_sell": 0
+  },
+  "minecraft:grass_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4,
+    "unit_sell": 0
+  },
+  "minecraft:mud_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4,
+    "unit_sell": 0
+  },
+  "minecraft:mycelium_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4,
+    "unit_sell": 0
+  },
+  "minecraft:polished_basalt_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4,
+    "unit_sell": 0
+  },
+  "minecraft:magma_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 6,
+    "unit_sell": 0
+  },
+  "minecraft:muddy_mangrove_roots_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 6,
+    "unit_sell": 0
+  },
+  "minecraft:podzol_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 6,
+    "unit_sell": 0
+  },
+  "minecraft:rooted_dirt_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 6,
+    "unit_sell": 0
+  },
+  "minecraft:smooth_basalt_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 6,
+    "unit_sell": 0
+  },
+  "minecraft:moss_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:mycelium_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 10,
+    "unit_sell": 0
+  },
+  "minecraft:obsidian_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 16,
+    "unit_sell": 0
+  },
+  "minecraft:crying_obsidian_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 19,
+    "unit_sell": 0
+  },
+  "minecraft:obsidian_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "minecraft:crying_obsidian_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 55,
+    "unit_sell": 0
+  },
+  "minecraft:iron_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 85,
+    "unit_sell": 0
+  },
+  "minecraft:iron_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 255,
+    "unit_sell": 0
+  },
+  "minecraft:gold_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 340,
+    "unit_sell": 0
+  },
+  "minecraft:gold_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 1000,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_slab": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 1600,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_stairs": {
+    "category": "handwerk.slabs_and_stairs",
+    "stack": 64,
+    "unit_buy": 4750,
+    "unit_sell": 0
+  },
+  "additions:wood_terraformer_shovel": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 30,
+    "unit_sell": 0
+  },
+  "additions:stone_terraformer_shovel": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "additions:wood_hammer": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "additions:wood_harvester_scythe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "additions:wood_lumberjack_axe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "additions:wood_prospector_pickaxe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "additions:stone_hammer": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 60,
+    "unit_sell": 0
+  },
+  "additions:stone_harvester_scythe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 60,
+    "unit_sell": 0
+  },
+  "additions:stone_lumberjack_axe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 60,
+    "unit_sell": 0
+  },
+  "additions:stone_prospector_pickaxe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 60,
+    "unit_sell": 0
+  },
+  "additions:lodestar_charm": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 140,
+    "unit_sell": 0
+  },
+  "additions:iron_terraformer_shovel": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 150,
+    "unit_sell": 0
+  },
+  "additions:iron_hammer": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 240,
+    "unit_sell": 0
+  },
+  "additions:iron_harvester_scythe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 240,
+    "unit_sell": 0
+  },
+  "additions:iron_lumberjack_axe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 240,
+    "unit_sell": 0
+  },
+  "additions:iron_prospector_pickaxe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 240,
+    "unit_sell": 0
+  },
+  "additions:gold_terraformer_shovel": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 500,
+    "unit_sell": 0
+  },
+  "additions:gold_hammer": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 860,
+    "unit_sell": 0
+  },
+  "additions:gold_harvester_scythe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 860,
+    "unit_sell": 0
+  },
+  "additions:gold_lumberjack_axe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 860,
+    "unit_sell": 0
+  },
+  "additions:gold_prospector_pickaxe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 860,
+    "unit_sell": 0
+  },
+  "additions:diamond_terraformer_shovel": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 2250,
+    "unit_sell": 0
+  },
+  "additions:diamond_hammer": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 2500,
+    "unit_sell": 0
+  },
+  "additions:diamond_harvester_scythe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 2500,
+    "unit_sell": 0
+  },
+  "additions:diamond_lumberjack_axe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 2500,
+    "unit_sell": 0
+  },
+  "additions:diamond_prospector_pickaxe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 2500,
+    "unit_sell": 0
+  },
+  "additions:netherite_terraformer_shovel": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 6650,
+    "unit_sell": 0
+  },
+  "additions:netherite_hammer": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 6900,
+    "unit_sell": 0
+  },
+  "additions:netherite_harvester_scythe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 6900,
+    "unit_sell": 0
+  },
+  "additions:netherite_lumberjack_axe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 6900,
+    "unit_sell": 0
+  },
+  "additions:netherite_prospector_pickaxe": {
+    "category": "handwerk.tools",
+    "stack": 1,
+    "unit_buy": 6900,
+    "unit_sell": 0
+  },
+  "minecraft:andesite_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:basalt_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:blackstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_deepslate_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_polished_blackstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_stone_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_tuff_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_tuff_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:cobbled_deepslate_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:cobblestone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:deepslate_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:deepslate_tiles_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:deepslate_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:diorite_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:end_stone_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:end_stone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:granite_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:netherrack_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_andesite_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_basalt_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_blackstone_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_blackstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_deepslate_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_diorite_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_granite_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:polished_tuff_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:stone_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:stone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:tuff_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:tuff_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 8,
+    "unit_sell": 0
+  },
+  "minecraft:mossy_cobblestone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 12,
+    "unit_sell": 0
+  },
+  "minecraft:smooth_basalt_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 12,
+    "unit_sell": 0
+  },
+  "minecraft:smooth_stone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 12,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_red_sandstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_sandstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:mossy_stone_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:mud_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:nether_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:red_sandstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:sandstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 15,
+    "unit_sell": 0
+  },
+  "minecraft:smooth_red_sandstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 19,
+    "unit_sell": 0
+  },
+  "minecraft:smooth_sandstone_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 19,
+    "unit_sell": 0
+  },
+  "minecraft:purpur_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 25,
+    "unit_sell": 0
+  },
+  "minecraft:red_nether_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 25,
+    "unit_sell": 0
+  },
+  "minecraft:chiseled_quartz_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "minecraft:quartz_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "minecraft:quartz_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 45,
+    "unit_sell": 0
+  },
+  "minecraft:smooth_quartz_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 50,
+    "unit_sell": 0
+  },
+  "minecraft:bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 60,
+    "unit_sell": 0
+  },
+  "minecraft:amethyst_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 150,
+    "unit_sell": 0
+  },
+  "minecraft:prismarine_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 450,
+    "unit_sell": 0
+  },
+  "minecraft:dark_prismarine_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 920,
+    "unit_sell": 0
+  },
+  "minecraft:prismarine_bricks_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 1000,
+    "unit_sell": 0
+  },
+  "minecraft:gold_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 2050,
+    "unit_sell": 0
+  },
+  "minecraft:emerald_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 3400,
+    "unit_sell": 0
+  },
+  "minecraft:diamond_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 9450,
+    "unit_sell": 0
+  },
+  "minecraft:netherite_trapdoor": {
+    "category": "handwerk.trapdoors",
+    "stack": 64,
+    "unit_buy": 28350,
+    "unit_sell": 0
+  }
+}
