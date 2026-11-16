@@ -22,9 +22,11 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ClickType;
+import net.minecraft.world.inventory.ContainerInput;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.Slot;
+import net.minecraft.util.Prediction;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -46,9 +48,9 @@ public final class WardrobeMenu extends AbstractContainerMenu {
     private static final int BALANCE_SLOT = 53;
 
     private static final Item[] PANES = {
-            Items.RED_STAINED_GLASS_PANE, Items.ORANGE_STAINED_GLASS_PANE, Items.YELLOW_STAINED_GLASS_PANE,
-            Items.LIME_STAINED_GLASS_PANE, Items.GREEN_STAINED_GLASS_PANE, Items.CYAN_STAINED_GLASS_PANE,
-            Items.LIGHT_BLUE_STAINED_GLASS_PANE, Items.BLUE_STAINED_GLASS_PANE, Items.PURPLE_STAINED_GLASS_PANE};
+            Items.STAINED_GLASS_PANE.pick(DyeColor.RED), Items.STAINED_GLASS_PANE.pick(DyeColor.ORANGE), Items.STAINED_GLASS_PANE.pick(DyeColor.YELLOW),
+            Items.STAINED_GLASS_PANE.pick(DyeColor.LIME), Items.STAINED_GLASS_PANE.pick(DyeColor.GREEN), Items.STAINED_GLASS_PANE.pick(DyeColor.CYAN),
+            Items.STAINED_GLASS_PANE.pick(DyeColor.LIGHT_BLUE), Items.STAINED_GLASS_PANE.pick(DyeColor.BLUE), Items.STAINED_GLASS_PANE.pick(DyeColor.PURPLE)};
     private static final String[] PIECE = {"Helmet", "Chestplate", "Leggings", "Boots"};
 
     private final SimpleContainer display = new SimpleContainer(SIZE);
@@ -147,12 +149,12 @@ public final class WardrobeMenu extends AbstractContainerMenu {
     }
 
     private static ItemStack filler() {
-        return named(Items.BLACK_STAINED_GLASS_PANE, " ");
+        return named(Items.STAINED_GLASS_PANE.pick(DyeColor.BLACK), " ");
     }
 
     private void renderColumn(int col) {
         if (!isUnlocked(col)) {
-            for (int row = 0; row < 4; row++) display.setItem(col + row * COLS, named(Items.GRAY_STAINED_GLASS_PANE, "&8Locked"));
+            for (int row = 0; row < 4; row++) display.setItem(col + row * COLS, named(Items.STAINED_GLASS_PANE.pick(DyeColor.GRAY), "&8Locked"));
             boolean next = col == unlockedSlots();
             display.setItem(col + BUTTON_ROW * COLS, next
                     ? named(Items.GOLD_INGOT, "&6Unlock slot " + (col + 1),
@@ -175,23 +177,23 @@ public final class WardrobeMenu extends AbstractContainerMenu {
             display.setItem(col + row * COLS, shown);
         }
         ItemStack button;
-        if (worn) button = named(Items.LIME_DYE, "&aEquipped", "&7Click to take this set off");
-        else if (data.isEmpty(col)) button = named(Items.GRAY_DYE, "&7Empty set " + (col + 1));
-        else button = named(Items.PINK_DYE, "&eWear set " + (col + 1), "&7Click to equip");
+        if (worn) button = named(Items.DYE.pick(DyeColor.LIME), "&aEquipped", "&7Click to take this set off");
+        else if (data.isEmpty(col)) button = named(Items.DYE.pick(DyeColor.GRAY), "&7Empty set " + (col + 1));
+        else button = named(Items.DYE.pick(DyeColor.PINK), "&eWear set " + (col + 1), "&7Click to equip");
         display.setItem(col + BUTTON_ROW * COLS, button);
     }
 
     // ---------------------------------------------------------------- clicks
 
     @Override
-    public void clicked(int slotId, int button, ClickType clickType, Player player) {
+    public void clicked(int slotId, int button, ContainerInput clickType, Player player) {
         if (slotId < 0 || slotId >= SIZE) {
             // Player inventory, outside clicks, drags: vanilla behaviour (wardrobe slots refuse items, see below).
             super.clicked(slotId, button, clickType, player);
             return;
         }
         // Wardrobe area: only plain clicks and shift-clicks do anything.
-        if (clickType != ClickType.PICKUP && clickType != ClickType.QUICK_MOVE) return;
+        if (clickType != ContainerInput.PICKUP && clickType != ContainerInput.QUICK_MOVE) return;
         int col = slotId % COLS;
         int row = slotId / COLS;
 
@@ -210,9 +212,9 @@ public final class WardrobeMenu extends AbstractContainerMenu {
         WardrobeStorage.save(server, owner.getUUID(), data);
     }
 
-    private void clickArmour(int col, int row, ClickType type) {
+    private void clickArmour(int col, int row, ContainerInput type) {
         ItemStack stored = data.sets[col][row];
-        if (type == ClickType.QUICK_MOVE) {
+        if (type == ContainerInput.QUICK_MOVE) {
             if (stored.isEmpty()) return;
             owner.getInventory().add(stored); // shrinks 'stored' by what fitted
             data.sets[col][row] = stored.isEmpty() ? ItemStack.EMPTY : stored;
@@ -263,7 +265,7 @@ public final class WardrobeMenu extends AbstractContainerMenu {
             owner.setItemSlot(slot, ItemStack.EMPTY);
             if (worn.isEmpty()) continue;
             if (data.active >= 0 && data.sets[data.active][i].isEmpty()) data.sets[data.active][i] = worn;
-            else owner.getInventory().placeItemBackInInventory(worn);
+            else owner.getInventory().placeItemBackInInventory(worn, Prediction.SERVER_ONLY);
         }
         // 2. Move the chosen set onto the player; storage keeps no copy.
         for (int i = 0; i < WardrobeData.SLOTS.length; i++) {
@@ -285,7 +287,7 @@ public final class WardrobeMenu extends AbstractContainerMenu {
             owner.setItemSlot(slot, ItemStack.EMPTY);
             if (worn.isEmpty()) continue;
             if (data.sets[col][i].isEmpty()) data.sets[col][i] = worn;
-            else owner.getInventory().placeItemBackInInventory(worn);
+            else owner.getInventory().placeItemBackInInventory(worn, Prediction.SERVER_ONLY);
         }
         data.active = -1;
         msg("&7Set " + (col + 1) + " stored.");
